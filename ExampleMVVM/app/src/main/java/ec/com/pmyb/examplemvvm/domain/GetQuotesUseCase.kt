@@ -1,9 +1,7 @@
 package ec.com.pmyb.examplemvvm.domain
 
 import ec.com.pmyb.examplemvvm.data.QuoteRepository
-import ec.com.pmyb.examplemvvm.data.database.entities.QuoteEntity
 import ec.com.pmyb.examplemvvm.data.database.entities.toDatabase
-import ec.com.pmyb.examplemvvm.data.model.QuoteModel
 import ec.com.pmyb.examplemvvm.domain.model.Quote
 import javax.inject.Inject
 

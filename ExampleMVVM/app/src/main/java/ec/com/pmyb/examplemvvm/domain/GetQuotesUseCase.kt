@@ -7,7 +7,6 @@ import ec.com.pmyb.examplemvvm.data.model.QuoteModel
 import ec.com.pmyb.examplemvvm.domain.model.Quote
 import javax.inject.Inject
 
-
 class GetQuotesUseCase @Inject constructor(private val repository: QuoteRepository) {
 
     suspend operator fun invoke(): List<Quote> {
